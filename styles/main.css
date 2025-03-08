@@ -1,0 +1,14 @@
+@import url("fonts.css");
+
+header {
+    background-color: #E27A3E;
+    height: 122px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    
+}
