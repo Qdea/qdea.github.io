@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.grid > div {
+    background-color: #444;
+    border: 1px solid black;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
