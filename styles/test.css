@@ -9,3 +9,33 @@
     text-align: center;
     padding: 2em;
 }
+.a{
+    background-color: aquamarine;
+    padding: 20px;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+@media (min-width:700px) {
+    .a {
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+.b {
+    background-color: rgb(17, 131, 93);
+    padding: 20px;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+@media (max-width:300px)  {
+    .b {
+    padding: 0;    
+    height: 100%;
+    background-color: rgb(187, 236, 9);
+    }
+
+}
+    
